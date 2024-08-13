@@ -1,0 +1,16 @@
+/*
+@use 'base/variables' as v;
+@forward 'base/normalize';
+
+// NOTA: Importamos con @use cuando queramos acceder a variables de ese archivo; Importamos con @forward cuando quieras traer todo el contenido de una hoja de estilos
+
+body {
+    font-family: v.$fuente_principal;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: v.$negro;
+} */
+
+@forward 'base/index';
+@forward 'layout/index';
+
